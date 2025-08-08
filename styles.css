@@ -29,8 +29,7 @@ h1 {
   font-size: 2.2rem;
   margin-bottom: 2rem;
   text-align: center;
-  /* Título com gradiente multicolorido (rosa, amarelo e ciano) para
-   * simular letreiros luminosos. */
+  /* Título*/
   background: linear-gradient(#00ffe1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
