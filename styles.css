@@ -1,15 +1,12 @@
-/* Basic reset */
 * {
   box-sizing: border-box;
 }
 
-/* Estilo Cyberpunk 2077: fundo roxo profundo com gradiente e brilho sutil */
 body {
   font-family: 'Orbitron', sans-serif;
   margin: 0;
   padding: 2rem;
-  /* Crie um gradiente radial inspirado nas interfaces de Cyberpunk 2077,
-   * transitando de roxo profundo para azul escuro. O brilho no canto
+  /* transitando de roxo profundo para azul escuro. O brilho no canto
    * superior esquerdo imita telas holográficas. */
   background: radial-gradient(circle at top left, #2a0037 0%, #0e013f 40%, #020015 100%);
   color: #c3d7ff;
@@ -34,10 +31,9 @@ h1 {
   text-align: center;
   /* Título com gradiente multicolorido (rosa, amarelo e ciano) para
    * simular letreiros luminosos. */
-  background: linear-gradient(90deg, #ff007c, #ffdc00, #00ffe1);
+  background: linear-gradient(#00ffe1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 10px #ff007c, 0 0 15px #00ffe1;
 }
 
 /* Seção de controles */
